@@ -1,28 +1,31 @@
 body {
-  color: #40514E;
+  color: #763d3d;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
-  font-size: 1.25rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #EEE3CB;
 }
 
 h1 {
-  color: #66BFBF;
-  font-size: 5.625rem;
+  color: #3C2A21;
+  font-size: 10rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Architects Daughter', cursive;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #3C2A21;
+  font-family: 'Chonburi', cursive;
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight:bold;
   padding-bottom: 10px;
 }
 
 h3 {
-  color: #11999E;
+  color: #3C2A21;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -45,44 +48,52 @@ a{
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #437162;
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #967E76;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .middle-container {
   margin: 100px 0;
+  background-color: #EEE3CB;
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #8b817b;
   padding: 50px 0 20px;
 }
 
+.footer-link{
+  color:#EEE3CB;
+}
+
 .skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+  width: 60%;
+  margin: 100px auto 150px auto;
   text-align: left;
 }
 
 .skills {
-  width: 50%;
-  margin: 100px auto 100px auto;
+  width: 55%;
+  margin: 100px auto 200px auto;
   text-align: left;
+  font-size: x-large;
 }
 
 .certificate {
-  width: 50%;
-  margin: 100px auto 200px auto;
+  width: 55%;
+  margin: 100px auto 225px auto;
   text-align: left;
+  font-size: x-large;
 }
 
 .intro {
-  width: 30%;
+  width: 60%;
   margin: auto;
 }
 
@@ -93,7 +104,7 @@ a:hover {
 
 .copyright {
   color: #EAF6F6;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   padding: 20px 0;
 }
 
@@ -110,29 +121,32 @@ a:hover {
 }
 
 .graduation-img {
-  width: 25%;
+  width: 16%;
   float: left;
   margin-right: 30px;
 }
 
 .code-img {
-  width: 25%;
+  width: 16%;
   float: right;
   margin-left: 30px;
 }
 
 .skills-img {
-  width: 25%;
+  width: 16%;
   float: right;
   margin-left: 30px;
 }
 
 .certificate-img {
-  width: 25%;
+  width: 16%;
   float: right;
   margin-left: 30px;
 }
 
+.skill-1{
+  display: inline-block;
+}
 
 .btn {
   background: #11cdd4;
